@@ -5,15 +5,15 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import br.ce.wcaquino.servicos.CalculadoraTest;
-import br.ce.wcaquino.servicos.CalcularValorLotacaoTest;
+import br.ce.wcaquino.servicos.CalculoValorLocacaoTest;
 import br.ce.wcaquino.servicos.LocacaoServiceTest;
 
-@RunWith(Suite.class)
+//@RunWith(Suite.class)
 @SuiteClasses({
 	CalculadoraTest.class,
-	CalcularValorLotacaoTest.class,
+	CalculoValorLocacaoTest.class,
 	LocacaoServiceTest.class
 })
 public class SuiteExecucao {
-	//Delete se puder!!!
+	//Remova se puder!
 }
